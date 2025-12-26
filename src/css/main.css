@@ -522,6 +522,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .mt-12 {
   margin-top: 3rem;
 }
@@ -594,6 +597,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-7 {
   height: 1.75rem;
 }
+.h-14 {
+  height: 3rem;
+}
 .max-h-screen {
   max-height: 100vh;
 }
@@ -617,6 +623,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-7 {
   width: 1.75rem;
+}
+.w-14 {
+  width: 3rem;
 }
 .w-24 {
   width: 6rem;
@@ -686,6 +695,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .rounded-sm {
   border-radius: 0.125rem;
+}
+.rounded-full {
+  border-radius: 9999px;
 }
 .rounded-t-xl {
   border-top-left-radius: 0.75rem;

@@ -6,6 +6,7 @@ import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import LoaderComponent from './components/loader/Loader.jsx';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -16,12 +17,12 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 function App() {
 	return (
-		<AnimatePresence>
+		<Suspense fallback={<LoaderComponent />}>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
 					<ScrollToTop />
 					<AppHeader />
-					<Suspense fallback={""}>
+					<AnimatePresence mode="wait">
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
@@ -33,12 +34,12 @@ function App() {
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
 						</Routes>
-					</Suspense>
+					</AnimatePresence>
 					<AppFooter />
 				</Router>
 				<UseScrollToTop />
 			</div>
-		</AnimatePresence>
+		</Suspense>
 	);
 }
 
