@@ -6,7 +6,7 @@ A simple portfolio starter theme built with React and Tailwind CSS. This is the 
 
 ## Demo URL
 
-[https://react-portfolio-ptd.netlify.app/](https://react-portfolio-ptd.netlify.app/)
+[https://ptd25.netlify.app](https://ptd25.netlify.app)
 
 ## Features
 

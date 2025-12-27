@@ -17,7 +17,7 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2024',
 			tags: 'UI / Frontend',
 		},
-		url: "https://dashboard-react-ptd.vercel.app/dashboard",
+		url: "https://dashboard-react-ptd.vercel.app/",
 		github: "https://github.com/thanhdao03/Dashboard-react-PTD",
 		tags: [
 			"ReactJS", "Material Ui", "Admin Dashboard", "Firebase", "Auth", "Responsive"
@@ -28,7 +28,7 @@ export const projectsData = [
 		title: 'Chat App Realtime',
 		category: 'Web Application',
 		img: WebImage2,
-		url: "https://chat-app-realtime-ochre.vercel.app/",
+		url: "https://chat-app-realtime-ochre.vercel.app",
 		github: "https://github.com/thanhdao03/ChatApp-Realtime-FrontEnd",
 		tags: [
 			"ReactJS", "ExpressJS", "Socket.io", "Zustand", "Tailwind CSS", "DaisyUI", "MongoDB"
@@ -39,7 +39,7 @@ export const projectsData = [
 		title: 'Pizza Delivery App',
 		category: 'Web Application',
 		img: WebImage3,
-		url: "https://fast-react-pizza-phamdao.vercel.app/",
+		url: "https://fast-react-pizza-phamdao.vercel.app",
 		github: "https://github.com/thanhdao03/Fast-React-Pizza-App-main",
 		tags: [
 			"ReactJS", "Ecommerce", "Tailwind CSS", "Redux Toolkit", "Mobile First", "Vite"
@@ -50,8 +50,8 @@ export const projectsData = [
 		title: 'Todo App Design',
 		category: 'Web Application',
 		img: WebImage4,
-		url: "https://dashboard-react-ptd.vercel.app/dashboard",
-		github: "https://todo-app-thanhdao.vercel.app/",
+		url: "https://todo-app-thanhdao.vercel.app",
+		github: "https://github.com/thanhdao03/React-Todo-App-main",
 		tags: [
 			"ReactJS", "CSS", "Redux Toolkit", "Mobile First", "Vite", "Dark Mode"
 		]
@@ -61,7 +61,7 @@ export const projectsData = [
 		title: 'Portfolio Project',
 		category: 'Web Application',
 		img: WebImage5,
-		url: "https://react-portfolio-ptd.netlify.app/",
+		url: "https://ptd25.netlify.app",
 		github: "https://github.com/thanhdao03/Portfolio-PTD",
 		tags: [
 			"ReactJS", "Tailwind CSS", "Dark Mode", "Responsive", "Context API", "Custom Hooks"
@@ -72,7 +72,7 @@ export const projectsData = [
 		title: 'Booking Tours Travel',
 		category: 'Web Application',
 		img: WebImage6,
-		url: "https://react-portfolio-ptd.netlify.app/",
+		url: "https://ptd25.netlify.app",
 		github: "https://github.com/thanhdao03/Tours-travels",
 		tags: [
 			"ReactJS", "ExpressJS", "MongoDB", "Bootstrap", "Responsive", "RESTful API", "Auth"

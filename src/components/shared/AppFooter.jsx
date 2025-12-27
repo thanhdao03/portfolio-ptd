@@ -11,7 +11,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    url: "https://react-portfolio-ptd.netlify.app/",
+    url: "https://ptd25.netlify.app",
   },
   {
     id: 2,
